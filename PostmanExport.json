@@ -13,7 +13,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"username\": \"testuser5\",\r\n  \"password\": \"securepassword2\"\r\n}",
+					"raw": "{\r\n  \"username\": \"testuser8\",\r\n  \"password\": \"securepassword2\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -21,7 +21,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/api/users/register",
+					"raw": "http://localhost:5000/api/user/register",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -29,7 +29,7 @@
 					"port": "5000",
 					"path": [
 						"api",
-						"users",
+						"user",
 						"register"
 					]
 				}
@@ -40,27 +40,27 @@
 			"name": "GetAllRides",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/rides",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"rides"
+					]
+				}
 			},
 			"response": []
 		},
 		{
 			"name": "GetARideDetailByRideID",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
 			"request": {
 				"method": "GET",
 				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n    \"rideId\":\"UID1\"\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
 				"url": {
 					"raw": "http://localhost:5000/api/ride-details/UID3",
 					"protocol": "http",
