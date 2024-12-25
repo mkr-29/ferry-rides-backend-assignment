@@ -1,5 +1,13 @@
 # ferry-rides-backend-assignment
 
+## Table of Contents
+- [Description](#description)
+- [Technologies Used](#technologies-used)
+- [Libraries Used](#libraries-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Endpoints](#api-endpoints)
+
 ## Description
 This is a backend assignment for the company Ferry Rides. The assignment is to create APIs to:
 - Register User: Accepts a username and password and returns a success message.
